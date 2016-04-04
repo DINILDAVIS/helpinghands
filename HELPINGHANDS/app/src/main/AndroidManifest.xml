@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dinildavis09gmail.helpinghands">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="HELPING HANDS"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".image">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginActivity">
+            android:label="HELPING HANDS"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.dinildavis09gmail.helpinghands.loginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".donsigninActivity"
+            android:label="HELPING HANDS"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.dinildavis09gmail.helpinghands.donsigninActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".register3"
+            android:label="HELPING HANDS"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.dinildavis09gmail.helpinghands.register3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".guestpageActivity"
+            android:label="HELPING HANDS"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.dinildavis09gmail.helpinghands.guestpageActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".guestsignin"></activity>
+    </application>
+
+</manifest>
